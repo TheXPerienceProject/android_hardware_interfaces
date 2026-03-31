@@ -5,3 +5,4 @@ service fingerprint-virtual /apex/com.android.hardware.biometrics.fingerprint.vi
     interface aidl android.hardware.biometrics.fingerprint.virtualhal.IVirtualHal/virtual
     oneshot
     disabled
+    task_profiles FINGERPRINT_SERVICE_POLICY

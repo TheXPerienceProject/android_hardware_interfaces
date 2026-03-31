@@ -2,3 +2,4 @@ service vendor.fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.
     class hal
     user nobody
     group nobody
+    task_profiles FINGERPRINT_SERVICE_POLICY
