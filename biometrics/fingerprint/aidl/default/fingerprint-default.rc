@@ -5,3 +5,4 @@ service vendor.fingerprint-default /vendor/bin/hw/android.hardware.biometrics.fi
     interface aidl android.hardware.biometrics.fingerprint.IFingerprint/default
     oneshot
     disabled
+    task_profiles FINGERPRINT_SERVICE_POLICY
