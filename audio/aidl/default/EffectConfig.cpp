@@ -325,8 +325,7 @@ bool EffectConfig::findUuid(const std::pair<std::string, struct EffectLibraries>
     V("spatializer", Spatializer)                          \
     V("virtualizer", Virtualizer)                          \
     V("visualizer", Visualizer)                            \
-    V("volume", Volume)                                    \
-    V("viper", Viper)
+    V("volume", Volume)
 
 #define GENERATE_MAP_ENTRY_V(s, symbol) {s, &getEffectTypeUuid##symbol},
 
